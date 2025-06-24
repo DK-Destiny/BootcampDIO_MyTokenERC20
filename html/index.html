@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>MYToken Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Token Dashboard</h1>
+        <div>
+            <button class="linkedin" onclick="openLinkedIn()">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </button>
+            <button class="github" onclick="openGitHub()">
+                <i class="fab fa-github"></i> GitHub
+            </button>
+            <button id="themeToggleBtn" class="theme-toggle-btn" onclick="toggleTheme()">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <button onclick="getContractAddress()">Ver Endereço do Contrato</button>
+        <button onclick="getTotalSupply()">Ver Total Supply</button>
+
+        <div id="output"></div>
+    </main>
+
+    <footer>
+        &copy; Luis Sales 2025 - Projeto DIO - My Token Dashboard
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

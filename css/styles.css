@@ -1,0 +1,132 @@
+body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0066cc, #9933cc, #ff3366); /* Light Mode (DIO colors) como padrão */
+            color: black;
+            transition: all 0.3s ease;
+        }
+
+        header, footer {
+            background: linear-gradient(90deg, #0066cc, #9933cc); /* Header/Footer Light Mode */
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        footer {
+            bottom: 0;
+            top: auto;
+            justify-content: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        .theme-toggle-btn {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #2196f3;
+            color: white;
+            margin-left: 10px;
+            margin-right: 60px;
+        }
+
+        .theme-toggle-btn:hover {
+            background-color: #1976d2;
+        }
+
+        button.linkedin {
+            background-color: #0077b5;
+            color: white;
+            margin-right: 10px;
+        }
+
+        button.linkedin:hover {
+            background-color: #005983;
+        }
+
+        button.github {
+            background-color: #333;
+            color: white;
+            margin-right: 10px;
+        }
+
+        button.github:hover {
+            background-color: #111;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #6a1b9a;
+            color: white;
+        }
+
+        button:hover {
+            background-color: #4a148c;
+        }
+
+        button i {
+            margin-right: 8px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+            padding-top: 120px;
+        }
+
+        #output {
+            margin-top: 20px;
+            white-space: pre-line;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+            width: 450px;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            word-wrap: break-word;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .dark-mode {
+            background: linear-gradient(135deg, #0d0d2b, #2c003e, #000000); /* Dark Gradient */
+            color: white;
+        }
+
+        .dark-mode header, .dark-mode footer {
+            background: linear-gradient(90deg, #0d0d2b, #2c003e); /* Header/Footer Dark */
+            color: white;
+        }
+
+        .dark-mode button, .dark-mode .theme-toggle-btn {
+            background-color: #6a1b9a;
+            color: white;
+        }
+
+        .dark-mode button:hover, .dark-mode .theme-toggle-btn:hover {
+            background-color: #4a148c;
+        }
+
+        .dark-mode #output {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
