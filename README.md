@@ -11,15 +11,14 @@ Este projeto foi criado para o módulo 3 do Bootcamp da DIO:
 
 - Solidity (Smart Contract)
 - HTML, CSS, JavaScript
-- Web3.js
-- Live Server
+- Web3.js (Integração com Carteira MetaMask)
 
 ## 🚀 Funcionalidades da Página:
 
 ✅ Consulta ao endereço do contrato  
 ✅ Exibição do Total Supply  
 ✅ Botões de acesso ao LinkedIn e GitHub  
-✅ Modo Ligth / Escuro Dark  
+✅ Modo Light/Dark  
 ✅ Layout inspirado nas cores oficiais da DIO  
 
 ## 📄 Smart Contract:
@@ -29,5 +28,4 @@ O código do contrato ERC20 está disponível na pasta:
 
 ---
 
-Luis Sales - 2025  
-Projeto DIO - Módulo 3
+Luis Sales - 2025 - Projeto DIO - Módulo 3
