@@ -1,7 +1,11 @@
 # 🪙 My Token Dashboard - Projeto ERC20 | DIO Bootcamp
 
 Este projeto foi criado para o módulo 3 do Bootcamp da DIO:
-**"Criando o Seu Primeiro Token do Zero nos Padrões Web3"
+"Criando o Seu Primeiro Token do Zero nos Padrões Web3"
+
+## Link do projeto no GitHub Pages:
+
+- https://dk-destiny.github.io/BootcampDIO_MyTokenERC20/
 
 ## 📌 Tecnologias usadas:
 
@@ -22,10 +26,6 @@ Este projeto foi criado para o módulo 3 do Bootcamp da DIO:
 
 O código do contrato ERC20 está disponível na pasta:  
 `/contrato/MYToken.sol`
-
-## 👨‍💻 Preview Local:
-
-Recomendo usar o **Live Server** para rodar localmente.
 
 ---
 
