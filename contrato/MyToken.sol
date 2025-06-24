@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
+//Endereço do contrato: "0x60bb340d6ECD9d8caa5886010494D77aFD679dCa" - Deploy local com Ganache
+
 interface ERC20Interface {
     function totalSupply() external view returns (uint);
     function balanceOf(address tokenOwner) external view returns (uint balance);
