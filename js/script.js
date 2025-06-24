@@ -47,11 +47,11 @@ const contractAddress = "0x60bb340d6ECD9d8caa5886010494D77aFD679dCa";
             }
         }
 
-
         function openLinkedIn() {
             window.open('https://www.linkedin.com/in/luissales/', '_blank');
         }
 
         function openGitHub() {
-            window.open('https://github.com/DK-Destiny?tab=repositories', '_blank');
+            window.open('https://github.com/DK-Destiny/BootcampDIO_MyTokenERC20.git', '_blank');
         }
+        
